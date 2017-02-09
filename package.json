@@ -5,9 +5,17 @@
   },
   "description": "Soft remove documents in your collections",
   "devDependencies": {
+    "babel-eslint": "^7.1.1",
     "babel-preset-es2016": "^6.22.0",
     "babel-preset-es2017": "^6.22.0",
     "babel-preset-stage-2": "^6.22.0",
+    "eslint": "^3.14.1",
+    "eslint-config-airbnb-base": "^11.0.1",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-meteor": "^4.0.1",
+    "eslint-plugin-no-unused-vars-rest": "^1.0.4",
+    "eslint-plugin-no-use-extend-native": "^0.3.12",
+    "eslint-plugin-prefer-object-spread": "^1.1.0",
   },
   "homepage": "https://github.com/meteor-collectionbehaviours/softremove#readme",
   "license": "MIT",
@@ -17,6 +25,9 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/meteor-collectionbehaviours/softremove.git"
+  },
+  "scripts": {
+    "lint": "eslint ."
   },
   "version": "1.0.0-alpha.1"
 }
