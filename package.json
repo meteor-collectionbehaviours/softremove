@@ -1,0 +1,17 @@
+{
+  "author": "Simon Fridlund <simon@fridlund.email>",
+  "bugs": {
+    "url": "https://github.com/meteor-collectionbehaviours/softremove/issues"
+  },
+  "description": "Soft remove documents in your collections",
+  "homepage": "https://github.com/meteor-collectionbehaviours/softremove#readme",
+  "license": "MIT",
+  "main": "package.js",
+  "name": "meteor-collectionbehaviours-softremove",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meteor-collectionbehaviours/softremove.git"
+  },
+  "version": "1.0.0-alpha.1"
+}
